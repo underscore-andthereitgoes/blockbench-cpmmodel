@@ -1,0 +1,16 @@
+{
+  "name": "blockbench-cpmmodel",
+  "version": "0.1.0",
+  "description": "Load CPM Models into Blockbench.",
+  "license": "MIT",
+  "author": "_andthereitgoes",
+  "type": "module",
+  "main": "bbcpmm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "blockbench-types": "^5.1.0",
+    "typescript": "^7.0.2"
+  }
+}
