@@ -2,7 +2,7 @@
   "include": ["bbcpmm.ts"],
   "compileOnSave": true,
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "types": ["blockbench-types"]
