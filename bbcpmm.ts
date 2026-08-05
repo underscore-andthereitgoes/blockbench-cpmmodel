@@ -1,5 +1,6 @@
-require = () => globalThis;
-import { Plugin } from "blockbench-types/generated/plugin_loader";
+//@ts-expect-error
+require ??= () => globalThis;
+const Plugin = require("blockbench-types/generated/plugin_loader");
 
 class IOHelper {
 
