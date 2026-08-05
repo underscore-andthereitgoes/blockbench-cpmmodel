@@ -1,3 +1,4 @@
+"use strict";
 class IOHelper {
     data;
     pointer = 0;
@@ -91,4 +92,3 @@ BBPlugin.register("bbcpmm", {
     onunload() {
     },
 });
-export {};
