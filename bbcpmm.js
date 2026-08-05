@@ -1,5 +1,6 @@
 "use strict";
-const Plugin = require("blockbench-types/generated/plugin_loader");
+//@ts-ignore
+const Plugin = this.Plugin ?? require("blockbench-types/generated/plugin_loader");
 class IOHelper {
     data;
     pointer = 0;
