@@ -84,7 +84,7 @@ class CPMModelFile extends IOHelper {
 }
 plugin_loader_1.Plugin.register("bbcpmm", {
     title: "CPM Models in Blockbench",
-    author: "_andthereitgoes",
+    author: "underscore",
     description: "loads cpmmodel files into blockbench projects",
     icon: "bar_chart",
     version: "0.1.0",
