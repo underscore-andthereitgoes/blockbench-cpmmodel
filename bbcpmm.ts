@@ -1,5 +1,3 @@
-//@ts-ignore
-const Plugin = this.Plugin ?? require("blockbench-types/generated/plugin_loader");
 
 class IOHelper {
 
@@ -93,7 +91,7 @@ class CPMModelFile extends IOHelper {
 
 }
 
-Plugin.register("bbcpmm", {
+BBPlugin.register("bbcpmm", {
   title: "CPM Models in Blockbench",
   author: "underscore",
   description: "loads cpmmodel files into blockbench projects",
