@@ -1,6 +1,4 @@
 "use strict";
-//@ts-expect-error
-require ??= () => globalThis;
 const Plugin = require("blockbench-types/generated/plugin_loader");
 class IOHelper {
     data;
