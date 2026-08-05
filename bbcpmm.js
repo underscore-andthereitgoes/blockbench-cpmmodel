@@ -1,4 +1,7 @@
-import { Plugin } from "blockbench-types/generated/plugin_loader";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+require = () => globalThis;
+const plugin_loader_1 = require("blockbench-types/generated/plugin_loader");
 class IOHelper {
     data;
     pointer = 0;
@@ -80,7 +83,7 @@ class CPMModelFile extends IOHelper {
         return this;
     }
 }
-Plugin.register("bbcpmm", {
+plugin_loader_1.Plugin.register("bbcpmm", {
     title: "CPM Models in Blockbench",
     author: "underscore",
     description: "loads cpmmodel files into blockbench projects",

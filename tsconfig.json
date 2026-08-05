@@ -2,10 +2,17 @@
   "include": ["bbcpmm.ts"],
   "compileOnSave": true,
   "compilerOptions": {
-    "module": "esnext",
+    "target": "ES2022",
+    "module": "commonjs",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "types": ["blockbench-types"]
+    "types": ["blockbench-types"],
+    "allowUmdGlobalAccess": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["DOM", "DOM.Iterable"],
+    "skipLibCheck": true
   },
   "exclude": [
     "node_modules"

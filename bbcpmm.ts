@@ -1,3 +1,4 @@
+require = () => globalThis;
 import { Plugin } from "blockbench-types/generated/plugin_loader";
 
 class IOHelper {
