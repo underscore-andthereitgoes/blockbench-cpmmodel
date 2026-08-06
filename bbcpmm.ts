@@ -98,6 +98,8 @@ BBPlugin.register("bbcpmm", {
   icon: "bar_chart",
   version: "0.1.0",
   variant: "both",
+  await_loading: true,
+  repository: "https://github.com/underscore-andthereitgoes/blockbench-cpmmodel",
   onload() {
   },
   onunload() {
